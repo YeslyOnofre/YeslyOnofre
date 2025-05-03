@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff0f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 40px;
+}
+
+h1 {
+    color: #d63384;
+    font-size: 2.5em;
+}
+
+.mensaje {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.imagen {
+    width: 50%; /* Ajusta la imagen al 50% del ancho del contenedor */
+    max-width: 400px; /* Define un ancho máximo para evitar que sea demasiado grande */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: auto; /* Centra la imagen */
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #ff85c1;
+}
+
+.sorpresa-oculta {
+    margin-top: 20px;
+    display: none;
+    font-weight: bold;
+    color: #9d15c7;
+    font-size: 1.3em;
+}
